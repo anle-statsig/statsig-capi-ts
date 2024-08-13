@@ -5,8 +5,10 @@ management:
   docVersion: "1.0"
   speakeasyVersion: 1.363.1
   generationVersion: 2.396.0
-  releaseVersion: 0.0.1
-  configChecksum: 81a743135052cd09106ebf4a5de5a86f
+  releaseVersion: 0.0.2
+  configChecksum: 15797e618e4e1148249b44e820f37b4e
+  repoURL: https://github.com/speakeasy-sdks/statsig-ts.git
+  installationURL: https://github.com/speakeasy-sdks/statsig-ts
 features:
   typescript:
     additionalDependencies: 0.1.0

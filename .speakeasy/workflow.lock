@@ -2,19 +2,21 @@ speakeasyVersion: 1.363.1
 sources:
     Statsig-OAS:
         sourceNamespace: statsig-oas
-        sourceRevisionDigest: sha256:c1f19b2b61dc3f3825efd7ef77c728ba5637691193b9ff523f7d35141ecb8d41
-        sourceBlobDigest: sha256:40ca89d5d81cf2e26d09a454d93fe2825ee63029d02d0dfe0f7a10421325b4a7
+        sourceRevisionDigest: sha256:96c16dfb405945888e5bf3ec2c5afd28919933c86533911b39e114b427b88b94
+        sourceBlobDigest: sha256:e6368b2b0b2f49beede3e436cdc908b25088ac2ec73f3910ead1ccf3b016ecbd
         tags:
             - latest
+            - main
 targets:
     statsig:
         source: Statsig-OAS
         sourceNamespace: statsig-oas
-        sourceRevisionDigest: sha256:c1f19b2b61dc3f3825efd7ef77c728ba5637691193b9ff523f7d35141ecb8d41
-        sourceBlobDigest: sha256:40ca89d5d81cf2e26d09a454d93fe2825ee63029d02d0dfe0f7a10421325b4a7
-        outLocation: /Users/sagar/go/src/statsig-ts
+        sourceRevisionDigest: sha256:96c16dfb405945888e5bf3ec2c5afd28919933c86533911b39e114b427b88b94
+        sourceBlobDigest: sha256:e6368b2b0b2f49beede3e436cdc908b25088ac2ec73f3910ead1ccf3b016ecbd
+        outLocation: /github/workspace/repo
 workflow:
     workflowVersion: 1.0.0
+    speakeasyVersion: latest
     sources:
         Statsig-OAS:
             inputs:
