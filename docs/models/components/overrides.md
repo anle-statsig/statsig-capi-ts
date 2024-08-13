@@ -1,0 +1,10 @@
+# Overrides
+
+
+## Fields
+
+| Field                                                                                          | Type                                                                                           | Required                                                                                       | Description                                                                                    |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| `type`                                                                                         | [components.ExperimentOverridesDtoType](../../models/components/experimentoverridesdtotype.md) | :heavy_check_mark:                                                                             | N/A                                                                                            |
+| `id`                                                                                           | *string*                                                                                       | :heavy_check_mark:                                                                             | The id of the segment or gate                                                                  |
+| `groupID`                                                                                      | *string*                                                                                       | :heavy_check_mark:                                                                             | The experiment group which user will be forced into                                            |

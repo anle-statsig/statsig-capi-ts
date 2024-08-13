@@ -1,0 +1,11 @@
+# ConsoleV1AutotunesControllerGenCreateResponseBody
+
+Invalid request. Please check the request input and try again.
+
+
+## Fields
+
+| Field                                                                                                                    | Type                                                                                                                     | Required                                                                                                                 | Description                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| `status`                                                                                                                 | [errors.ConsoleV1AutotunesControllerGenCreateStatus](../../models/errors/consolev1autotunescontrollergencreatestatus.md) | :heavy_check_mark:                                                                                                       | N/A                                                                                                                      |
+| `message`                                                                                                                | *string*                                                                                                                 | :heavy_check_mark:                                                                                                       | N/A                                                                                                                      |

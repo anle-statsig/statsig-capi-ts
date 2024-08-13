@@ -1,0 +1,11 @@
+# ConsoleV1HoldoutsControllerGenRemoveHoldoutsResponseBody
+
+Holdout not found.
+
+
+## Fields
+
+| Field                                                                                                                                  | Type                                                                                                                                   | Required                                                                                                                               | Description                                                                                                                            |
+| -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| `status`                                                                                                                               | [errors.ConsoleV1HoldoutsControllerGenRemoveHoldoutsStatus](../../models/errors/consolev1holdoutscontrollergenremoveholdoutsstatus.md) | :heavy_check_mark:                                                                                                                     | N/A                                                                                                                                    |
+| `message`                                                                                                                              | *string*                                                                                                                               | :heavy_check_mark:                                                                                                                     | N/A                                                                                                                                    |

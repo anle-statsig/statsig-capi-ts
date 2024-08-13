@@ -1,0 +1,11 @@
+# ConsoleV1ExperimentsControllerGenResetResponseBody
+
+Experiment has not yet started
+
+
+## Fields
+
+| Field                                                                                                                      | Type                                                                                                                       | Required                                                                                                                   | Description                                                                                                                |
+| -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| `status`                                                                                                                   | [errors.ConsoleV1ExperimentsControllerGenResetStatus](../../models/errors/consolev1experimentscontrollergenresetstatus.md) | :heavy_check_mark:                                                                                                         | N/A                                                                                                                        |
+| `message`                                                                                                                  | *string*                                                                                                                   | :heavy_check_mark:                                                                                                         | N/A                                                                                                                        |

@@ -1,0 +1,12 @@
+# LayerCreateContractDto
+
+
+## Fields
+
+| Field                                                                                 | Type                                                                                  | Required                                                                              | Description                                                                           |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| `name`                                                                                | *string*                                                                              | :heavy_check_mark:                                                                    | The unique name of the layer, formatted as an ID (e.g., "A Layer" becomes "a_layer"). |
+| `description`                                                                         | *string*                                                                              | :heavy_minus_sign:                                                                    | A helpful description of what this layer does, providing context for its purpose.     |
+| `idType`                                                                              | *string*                                                                              | :heavy_check_mark:                                                                    | The type of ID used for this layer, essential for validation in services.             |
+| `targetApps`                                                                          | *components.LayerCreateContractDtoTargetApps*                                         | :heavy_minus_sign:                                                                    | List of target applications that this layer is associated with.                       |
+| `team`                                                                                | *string*                                                                              | :heavy_minus_sign:                                                                    | Optional identifier for the team responsible for this layer.                          |

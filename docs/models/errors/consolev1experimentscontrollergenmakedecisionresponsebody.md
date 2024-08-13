@@ -1,0 +1,11 @@
+# ConsoleV1ExperimentsControllerGenMakeDecisionResponseBody
+
+Experiment has not yet started
+
+
+## Fields
+
+| Field                                                                                                                                    | Type                                                                                                                                     | Required                                                                                                                                 | Description                                                                                                                              |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| `status`                                                                                                                                 | [errors.ConsoleV1ExperimentsControllerGenMakeDecisionStatus](../../models/errors/consolev1experimentscontrollergenmakedecisionstatus.md) | :heavy_check_mark:                                                                                                                       | N/A                                                                                                                                      |
+| `message`                                                                                                                                | *string*                                                                                                                                 | :heavy_check_mark:                                                                                                                       | N/A                                                                                                                                      |

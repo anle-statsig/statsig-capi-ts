@@ -1,0 +1,11 @@
+# ConsoleV1ExperimentsControllerGenAbandonResponseBody
+
+Experiment has not yet started
+
+
+## Fields
+
+| Field                                                                                                                          | Type                                                                                                                           | Required                                                                                                                       | Description                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| `status`                                                                                                                       | [errors.ConsoleV1ExperimentsControllerGenAbandonStatus](../../models/errors/consolev1experimentscontrollergenabandonstatus.md) | :heavy_check_mark:                                                                                                             | N/A                                                                                                                            |
+| `message`                                                                                                                      | *string*                                                                                                                       | :heavy_check_mark:                                                                                                             | N/A                                                                                                                            |

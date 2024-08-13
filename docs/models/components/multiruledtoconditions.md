@@ -1,0 +1,12 @@
+# MultiRuleDtoConditions
+
+
+## Fields
+
+| Field                                                                      | Type                                                                       | Required                                                                   | Description                                                                |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| `targetValue`                                                              | *components.MultiRuleDtoTargetValue*                                       | :heavy_minus_sign:                                                         | N/A                                                                        |
+| `operator`                                                                 | *string*                                                                   | :heavy_minus_sign:                                                         | N/A                                                                        |
+| `field`                                                                    | *any*                                                                      | :heavy_minus_sign:                                                         | N/A                                                                        |
+| `customID`                                                                 | *any*                                                                      | :heavy_minus_sign:                                                         | N/A                                                                        |
+| `type`                                                                     | [components.MultiRuleDtoType](../../models/components/multiruledtotype.md) | :heavy_check_mark:                                                         | N/A                                                                        |

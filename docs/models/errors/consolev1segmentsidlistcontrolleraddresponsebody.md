@@ -1,0 +1,11 @@
+# ConsoleV1SegmentsIDListControllerAddResponseBody
+
+Segment must be of type 'id_list' to be modified on this endpoint
+
+
+## Fields
+
+| Field                                                                                                                  | Type                                                                                                                   | Required                                                                                                               | Description                                                                                                            |
+| ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `status`                                                                                                               | [errors.ConsoleV1SegmentsIDListControllerAddStatus](../../models/errors/consolev1segmentsidlistcontrolleraddstatus.md) | :heavy_check_mark:                                                                                                     | N/A                                                                                                                    |
+| `message`                                                                                                              | *string*                                                                                                               | :heavy_check_mark:                                                                                                     | N/A                                                                                                                    |

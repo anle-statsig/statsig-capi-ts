@@ -1,0 +1,15 @@
+# KeyDto
+
+
+## Fields
+
+| Field                                                              | Type                                                               | Required                                                           | Description                                                        |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| `key`                                                              | *any*                                                              | :heavy_check_mark:                                                 | N/A                                                                |
+| `type`                                                             | [components.KeyDtoType](../../models/components/keydtotype.md)     | :heavy_check_mark:                                                 | N/A                                                                |
+| `description`                                                      | *string*                                                           | :heavy_check_mark:                                                 | N/A                                                                |
+| `scopes`                                                           | [components.Scopes](../../models/components/scopes.md)[]           | :heavy_check_mark:                                                 | N/A                                                                |
+| `environments`                                                     | *string*[]                                                         | :heavy_minus_sign:                                                 | N/A                                                                |
+| `primaryTargetApp`                                                 | *any*                                                              | :heavy_minus_sign:                                                 | N/A                                                                |
+| `secondaryTargetApps`                                              | *string*[]                                                         | :heavy_minus_sign:                                                 | N/A                                                                |
+| `status`                                                           | [components.KeyDtoStatus](../../models/components/keydtostatus.md) | :heavy_check_mark:                                                 | N/A                                                                |

@@ -1,0 +1,11 @@
+# UserIDOverrides
+
+
+## Fields
+
+| Field                                                                            | Type                                                                             | Required                                                                         | Description                                                                      |
+| -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| `groupID`                                                                        | *string*                                                                         | :heavy_check_mark:                                                               | The experiment group the user will be forced into.                               |
+| `ids`                                                                            | *string*[]                                                                       | :heavy_check_mark:                                                               | Array of user IDs to be assigned to the specified experiment group.              |
+| `environment`                                                                    | *any*                                                                            | :heavy_minus_sign:                                                               | Optional environment designation (e.g., production, staging) for the experiment. |
+| `unitType`                                                                       | *any*                                                                            | :heavy_minus_sign:                                                               | Optional type of unit for the experiment, defining the scope of the override.    |

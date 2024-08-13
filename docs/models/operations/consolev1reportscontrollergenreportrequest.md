@@ -1,0 +1,10 @@
+# ConsoleV1ReportsControllerGenReportRequest
+
+
+## Fields
+
+| Field                                                                  | Type                                                                   | Required                                                               | Description                                                            | Example                                                                |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| `type`                                                                 | [operations.QueryParamType](../../models/operations/queryparamtype.md) | :heavy_check_mark:                                                     | report type                                                            | first_exposures                                                        |
+| `date`                                                                 | *string*                                                               | :heavy_check_mark:                                                     | date for the report                                                    | 2022-10-31 00:00:00 +0000 UTC                                          |
+| `xRespectReviewSettings`                                               | *string*                                                               | :heavy_minus_sign:                                                     | Optional header to respect review settings for mutation endpoints.     |                                                                        |

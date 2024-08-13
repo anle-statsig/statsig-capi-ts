@@ -1,0 +1,11 @@
+# ConsoleV1ExperimentsControllerGenFullUpdateResponseBody
+
+Name is already in use
+
+
+## Fields
+
+| Field                                                                                                                                | Type                                                                                                                                 | Required                                                                                                                             | Description                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| `status`                                                                                                                             | [errors.ConsoleV1ExperimentsControllerGenFullUpdateStatus](../../models/errors/consolev1experimentscontrollergenfullupdatestatus.md) | :heavy_check_mark:                                                                                                                   | N/A                                                                                                                                  |
+| `message`                                                                                                                            | *string*                                                                                                                             | :heavy_check_mark:                                                                                                                   | N/A                                                                                                                                  |

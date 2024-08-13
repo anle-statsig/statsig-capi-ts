@@ -1,0 +1,11 @@
+# ConsoleV1HoldoutsControllerGenCreateResponseBody
+
+Name is already in use
+
+
+## Fields
+
+| Field                                                                                                                  | Type                                                                                                                   | Required                                                                                                               | Description                                                                                                            |
+| ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `status`                                                                                                               | [errors.ConsoleV1HoldoutsControllerGenCreateStatus](../../models/errors/consolev1holdoutscontrollergencreatestatus.md) | :heavy_check_mark:                                                                                                     | N/A                                                                                                                    |
+| `message`                                                                                                              | *string*                                                                                                               | :heavy_check_mark:                                                                                                     | N/A                                                                                                                    |

@@ -1,0 +1,11 @@
+# ConsoleV1HoldoutsControllerGenFullUpdateResponseBody
+
+Name is already in use
+
+
+## Fields
+
+| Field                                                                                                                          | Type                                                                                                                           | Required                                                                                                                       | Description                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| `status`                                                                                                                       | [errors.ConsoleV1HoldoutsControllerGenFullUpdateStatus](../../models/errors/consolev1holdoutscontrollergenfullupdatestatus.md) | :heavy_check_mark:                                                                                                             | N/A                                                                                                                            |
+| `message`                                                                                                                      | *string*                                                                                                                       | :heavy_check_mark:                                                                                                             | N/A                                                                                                                            |

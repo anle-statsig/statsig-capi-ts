@@ -1,0 +1,27 @@
+speakeasyVersion: 1.363.1
+sources:
+    Statsig-OAS:
+        sourceNamespace: statsig-oas
+        sourceRevisionDigest: sha256:c1f19b2b61dc3f3825efd7ef77c728ba5637691193b9ff523f7d35141ecb8d41
+        sourceBlobDigest: sha256:40ca89d5d81cf2e26d09a454d93fe2825ee63029d02d0dfe0f7a10421325b4a7
+        tags:
+            - latest
+targets:
+    statsig:
+        source: Statsig-OAS
+        sourceNamespace: statsig-oas
+        sourceRevisionDigest: sha256:c1f19b2b61dc3f3825efd7ef77c728ba5637691193b9ff523f7d35141ecb8d41
+        sourceBlobDigest: sha256:40ca89d5d81cf2e26d09a454d93fe2825ee63029d02d0dfe0f7a10421325b4a7
+        outLocation: /Users/sagar/go/src/statsig-ts
+workflow:
+    workflowVersion: 1.0.0
+    sources:
+        Statsig-OAS:
+            inputs:
+                - location: statsig-suggest.yaml
+            registry:
+                location: registry.speakeasyapi.dev/statsig/statsig/statsig-oas
+    targets:
+        statsig:
+            target: typescript
+            source: Statsig-OAS

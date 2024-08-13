@@ -1,0 +1,11 @@
+workflowVersion: 1.0.0
+sources:
+    Statsig-OAS:
+        inputs:
+            - location: statsig-suggest.yaml
+        registry:
+            location: registry.speakeasyapi.dev/statsig/statsig/statsig-oas
+targets:
+    statsig:
+        target: typescript
+        source: Statsig-OAS

@@ -1,0 +1,10 @@
+# ConsoleV1AutotunesControllerGenPartialUpdateRequest
+
+
+## Fields
+
+| Field                                                                                      | Type                                                                                       | Required                                                                                   | Description                                                                                |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| `id`                                                                                       | *string*                                                                                   | :heavy_check_mark:                                                                         | id                                                                                         |
+| `xRespectReviewSettings`                                                                   | *string*                                                                                   | :heavy_minus_sign:                                                                         | Optional header to respect review settings for mutation endpoints.                         |
+| `autotunePartialUpdateDto`                                                                 | [components.AutotunePartialUpdateDto](../../models/components/autotunepartialupdatedto.md) | :heavy_check_mark:                                                                         | N/A                                                                                        |

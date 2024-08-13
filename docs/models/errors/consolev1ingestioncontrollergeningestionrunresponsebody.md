@@ -1,0 +1,11 @@
+# ConsoleV1IngestionControllerGenIngestionRunResponseBody
+
+This endpoint only accepts an active CONSOLE key, but an invalid key was sent. Key: console-xxxXXXxxxXXXxxx
+
+
+## Fields
+
+| Field                                                                                                                                | Type                                                                                                                                 | Required                                                                                                                             | Description                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| `status`                                                                                                                             | [errors.ConsoleV1IngestionControllerGenIngestionRunStatus](../../models/errors/consolev1ingestioncontrollergeningestionrunstatus.md) | :heavy_check_mark:                                                                                                                   | N/A                                                                                                                                  |
+| `message`                                                                                                                            | *string*                                                                                                                             | :heavy_check_mark:                                                                                                                   | N/A                                                                                                                                  |

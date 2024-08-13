@@ -1,0 +1,11 @@
+# ConsoleV1KeysControllerGenUpdateResponseBody
+
+Insufficient permissions.
+
+
+## Fields
+
+| Field                                                                                                          | Type                                                                                                           | Required                                                                                                       | Description                                                                                                    |
+| -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| `status`                                                                                                       | [errors.ConsoleV1KeysControllerGenUpdateStatus](../../models/errors/consolev1keyscontrollergenupdatestatus.md) | :heavy_check_mark:                                                                                             | N/A                                                                                                            |
+| `message`                                                                                                      | *string*                                                                                                       | :heavy_check_mark:                                                                                             | N/A                                                                                                            |

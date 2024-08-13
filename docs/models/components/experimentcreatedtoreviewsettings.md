@@ -1,0 +1,9 @@
+# ExperimentCreateDtoReviewSettings
+
+
+## Fields
+
+| Field                                                                                                              | Type                                                                                                               | Required                                                                                                           | Description                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| `requiredReview`                                                                                                   | *boolean*                                                                                                          | :heavy_check_mark:                                                                                                 | N/A                                                                                                                |
+| `allowedReviewers`                                                                                                 | [components.ExperimentCreateDtoAllowedReviewers](../../models/components/experimentcreatedtoallowedreviewers.md)[] | :heavy_check_mark:                                                                                                 | N/A                                                                                                                |

@@ -1,0 +1,11 @@
+# ConsoleV1MetricsControllerUpdateMetricMetricsResponseBody
+
+Not Found. The requested resource could not be found.
+
+
+## Fields
+
+| Field                                                                                                                                    | Type                                                                                                                                     | Required                                                                                                                                 | Description                                                                                                                              |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| `status`                                                                                                                                 | [errors.ConsoleV1MetricsControllerUpdateMetricMetricsStatus](../../models/errors/consolev1metricscontrollerupdatemetricmetricsstatus.md) | :heavy_check_mark:                                                                                                                       | N/A                                                                                                                                      |
+| `message`                                                                                                                                | *string*                                                                                                                                 | :heavy_check_mark:                                                                                                                       | N/A                                                                                                                                      |

@@ -1,0 +1,12 @@
+# MultiRuleUpdateDtoConditions
+
+
+## Fields
+
+| Field                                                                                  | Type                                                                                   | Required                                                                               | Description                                                                            |
+| -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| `targetValue`                                                                          | *components.MultiRuleUpdateDtoTargetValue*                                             | :heavy_minus_sign:                                                                     | N/A                                                                                    |
+| `operator`                                                                             | *string*                                                                               | :heavy_minus_sign:                                                                     | N/A                                                                                    |
+| `field`                                                                                | *any*                                                                                  | :heavy_minus_sign:                                                                     | N/A                                                                                    |
+| `customID`                                                                             | *any*                                                                                  | :heavy_minus_sign:                                                                     | N/A                                                                                    |
+| `type`                                                                                 | [components.MultiRuleUpdateDtoType](../../models/components/multiruleupdatedtotype.md) | :heavy_check_mark:                                                                     | N/A                                                                                    |

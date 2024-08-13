@@ -1,0 +1,11 @@
+# ConsoleV1SegmentsRulesControllerUpdateResponseBody
+
+Segment must be of type 'rule_based' to be modified on this endpoint
+
+
+## Fields
+
+| Field                                                                                                                      | Type                                                                                                                       | Required                                                                                                                   | Description                                                                                                                |
+| -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| `status`                                                                                                                   | [errors.ConsoleV1SegmentsRulesControllerUpdateStatus](../../models/errors/consolev1segmentsrulescontrollerupdatestatus.md) | :heavy_check_mark:                                                                                                         | N/A                                                                                                                        |
+| `message`                                                                                                                  | *string*                                                                                                                   | :heavy_check_mark:                                                                                                         | N/A                                                                                                                        |

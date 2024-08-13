@@ -1,0 +1,10 @@
+# UserInvitesDto
+
+
+## Fields
+
+| Field                                                                                               | Type                                                                                                | Required                                                                                            | Description                                                                                         |
+| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `role`                                                                                              | *string*                                                                                            | :heavy_check_mark:                                                                                  | Role assigned to the invited users. Can be 'Admin', 'Read Only', 'Member', or any custom role name. |
+| `emails`                                                                                            | *string*[]                                                                                          | :heavy_check_mark:                                                                                  | List of email addresses to send invitations to.                                                     |
+| `teams`                                                                                             | *string*[]                                                                                          | :heavy_minus_sign:                                                                                  | Optional list of teams that the invited users will be associated with.                              |

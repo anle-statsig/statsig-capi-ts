@@ -1,0 +1,11 @@
+# ConsoleV1KeysControllerGenDeactivateKeysResponseBody
+
+Key not found.
+
+
+## Fields
+
+| Field                                                                                                                          | Type                                                                                                                           | Required                                                                                                                       | Description                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| `status`                                                                                                                       | [errors.ConsoleV1KeysControllerGenDeactivateKeysStatus](../../models/errors/consolev1keyscontrollergendeactivatekeysstatus.md) | :heavy_check_mark:                                                                                                             | N/A                                                                                                                            |
+| `message`                                                                                                                      | *string*                                                                                                                       | :heavy_check_mark:                                                                                                             | N/A                                                                                                                            |

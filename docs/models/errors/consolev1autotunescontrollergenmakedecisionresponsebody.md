@@ -1,0 +1,11 @@
+# ConsoleV1AutotunesControllerGenMakeDecisionResponseBody
+
+Invalid request. Please check the request input and try again.
+
+
+## Fields
+
+| Field                                                                                                                                | Type                                                                                                                                 | Required                                                                                                                             | Description                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| `status`                                                                                                                             | [errors.ConsoleV1AutotunesControllerGenMakeDecisionStatus](../../models/errors/consolev1autotunescontrollergenmakedecisionstatus.md) | :heavy_check_mark:                                                                                                                   | N/A                                                                                                                                  |
+| `message`                                                                                                                            | *string*                                                                                                                             | :heavy_check_mark:                                                                                                                   | N/A                                                                                                                                  |

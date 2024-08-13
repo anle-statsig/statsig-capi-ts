@@ -1,0 +1,14 @@
+# EntityPropertySourceCreationDto
+
+
+## Fields
+
+| Field                                                                  | Type                                                                   | Required                                                               | Description                                                            |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| `name`                                                                 | *string*                                                               | :heavy_check_mark:                                                     | Unique identifier for the entity property source.                      |
+| `description`                                                          | *string*                                                               | :heavy_minus_sign:                                                     | Optional detailed context for the entity property source.              |
+| `tags`                                                                 | *string*[]                                                             | :heavy_minus_sign:                                                     | Optional tags for categorization.                                      |
+| `sql`                                                                  | *string*                                                               | :heavy_check_mark:                                                     | SQL query defining the data source.                                    |
+| `timestampColumn`                                                      | *string*                                                               | :heavy_minus_sign:                                                     | Optional column name for timestamp.                                    |
+| `timestampAsDay`                                                       | *boolean*                                                              | :heavy_minus_sign:                                                     | Indicates if the timestamp is treated as a day.                        |
+| `idTypeMapping`                                                        | [components.IdTypeMapping](../../models/components/idtypemapping.md)[] | :heavy_check_mark:                                                     | Mappings of Statsig units to their columns.                            |

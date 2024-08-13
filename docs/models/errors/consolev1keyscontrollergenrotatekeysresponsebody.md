@@ -1,0 +1,11 @@
+# ConsoleV1KeysControllerGenRotateKeysResponseBody
+
+Key not found.
+
+
+## Fields
+
+| Field                                                                                                                  | Type                                                                                                                   | Required                                                                                                               | Description                                                                                                            |
+| ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `status`                                                                                                               | [errors.ConsoleV1KeysControllerGenRotateKeysStatus](../../models/errors/consolev1keyscontrollergenrotatekeysstatus.md) | :heavy_check_mark:                                                                                                     | N/A                                                                                                                    |
+| `message`                                                                                                              | *string*                                                                                                               | :heavy_check_mark:                                                                                                     | N/A                                                                                                                    |

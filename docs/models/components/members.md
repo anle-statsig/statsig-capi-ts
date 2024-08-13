@@ -1,0 +1,11 @@
+# Members
+
+
+## Fields
+
+| Field                                                                                  | Type                                                                                   | Required                                                                               | Description                                                                            |
+| -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| `email`                                                                                | *string*                                                                               | :heavy_check_mark:                                                                     | The email address of the user.                                                         |
+| `firstName`                                                                            | *string*                                                                               | :heavy_check_mark:                                                                     | The user's first name.                                                                 |
+| `lastName`                                                                             | *string*                                                                               | :heavy_check_mark:                                                                     | The user's last name.                                                                  |
+| `role`                                                                                 | *string*                                                                               | :heavy_check_mark:                                                                     | The user's role, which can be 'Admin', 'Read Only', 'Member', or any custom role name. |

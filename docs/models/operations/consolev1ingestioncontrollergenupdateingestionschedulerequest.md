@@ -1,0 +1,9 @@
+# ConsoleV1IngestionControllerGenUpdateIngestionScheduleRequest
+
+
+## Fields
+
+| Field                                                                                                          | Type                                                                                                           | Required                                                                                                       | Description                                                                                                    |
+| -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| `xRespectReviewSettings`                                                                                       | *string*                                                                                                       | :heavy_minus_sign:                                                                                             | Optional header to respect review settings for mutation endpoints.                                             |
+| `ingestionScheduleUpdateContractDto`                                                                           | [components.IngestionScheduleUpdateContractDto](../../models/components/ingestionscheduleupdatecontractdto.md) | :heavy_check_mark:                                                                                             | N/A                                                                                                            |

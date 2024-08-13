@@ -1,0 +1,11 @@
+# ConsoleV1SegmentsControllerGenRemoveSegmentsResponseBody
+
+Segment not found.
+
+
+## Fields
+
+| Field                                                                                                                                  | Type                                                                                                                                   | Required                                                                                                                               | Description                                                                                                                            |
+| -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| `status`                                                                                                                               | [errors.ConsoleV1SegmentsControllerGenRemoveSegmentsStatus](../../models/errors/consolev1segmentscontrollergenremovesegmentsstatus.md) | :heavy_check_mark:                                                                                                                     | N/A                                                                                                                                    |
+| `message`                                                                                                                              | *string*                                                                                                                               | :heavy_check_mark:                                                                                                                     | N/A                                                                                                                                    |

@@ -1,0 +1,12 @@
+# SegmentRulesDtoConditions
+
+
+## Fields
+
+| Field                                                                            | Type                                                                             | Required                                                                         | Description                                                                      |
+| -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| `targetValue`                                                                    | *components.SegmentRulesDtoTargetValue*                                          | :heavy_minus_sign:                                                               | N/A                                                                              |
+| `operator`                                                                       | *string*                                                                         | :heavy_minus_sign:                                                               | N/A                                                                              |
+| `field`                                                                          | *any*                                                                            | :heavy_minus_sign:                                                               | N/A                                                                              |
+| `customID`                                                                       | *any*                                                                            | :heavy_minus_sign:                                                               | N/A                                                                              |
+| `type`                                                                           | [components.SegmentRulesDtoType](../../models/components/segmentrulesdtotype.md) | :heavy_check_mark:                                                               | N/A                                                                              |
