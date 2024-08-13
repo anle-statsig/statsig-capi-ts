@@ -10,3 +10,6 @@ targets:
     statsig:
         target: typescript
         source: Statsig-OAS
+        publish:
+            npm:
+                token: $npm_token

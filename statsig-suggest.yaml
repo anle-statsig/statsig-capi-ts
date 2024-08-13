@@ -77,6 +77,7 @@ paths:
           content:
             application/json:
               schema:
+                x-speakeasy-name-override: Invalid Request
                 type: object
                 properties:
                   status:
@@ -100,6 +101,7 @@ paths:
           content:
             application/json:
               schema:
+                x-speakeasy-name-override: Unauthorized
                 type: object
                 properties:
                   status:
@@ -123,6 +125,7 @@ paths:
           content:
             application/json:
               schema:
+                x-speakeasy-name-override: Forbidden
                 type: object
                 properties:
                   status:
